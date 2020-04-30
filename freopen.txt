@@ -1,0 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <fstream>
+
+freopen("Text.txt", "r", stdin);
+ofstream of;
+of.open("Text1.txt");
+
+of.close();
